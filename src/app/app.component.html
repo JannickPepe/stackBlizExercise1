@@ -1,7 +1,7 @@
 <ion-app>
   <ion-header>
     <ion-toolbar>
-      <ion-title>Hello Jannick Pedersen</ion-title>
+      <ion-title>Hello, {{ title }}</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-content>
@@ -24,6 +24,8 @@
       </ion-card-header>
     </ion-card>
 
+    <ion-button href="{{ url }}" shape="round">Round Button</ion-button>
+
     <ion-card>
       <ion-card-header>
         <ion-card-subtitle>The legend of Pepe</ion-card-subtitle>
@@ -31,9 +33,7 @@
       </ion-card-header>
 
       <ion-card-content>
-        Keep close to Nature's heart... and break clear away, once in awhile,
-        and climb a mountain or spend a week in the woods. Wash your spirit
-        clean.
+        {{ cardContent }}
       </ion-card-content>
     </ion-card>
 

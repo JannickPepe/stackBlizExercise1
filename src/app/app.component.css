@@ -1,9 +1,13 @@
 p {
   font-family: Lato;
-  color:blue;
+  color: blue;
 }
 
-ion-card-title{
-  color:blueviolet;
+ion-card-title {
+  color: blueviolet;
   text-align: center;
+}
+
+ion-button {
+  margin-left: 30%;
 }
